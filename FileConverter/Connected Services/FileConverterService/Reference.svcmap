@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="94db548b-e39f-4229-b130-0703351bb43c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:23645/FileConverterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileConverterService.xsd" MetadataType="Schema" ID="3c9cc09d-2047-4303-a4bd-233183b75212" SourceId="1" SourceUrl="http://localhost:23645/FileConverterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FileConverterService.disco" MetadataType="Disco" ID="4cc145bc-9446-4794-9060-cb003b2151bd" SourceId="1" SourceUrl="http://localhost:23645/FileConverterService.svc?disco" />
+    <MetadataFile FileName="FileConverterService1.xsd" MetadataType="Schema" ID="f5932b11-1f30-4a75-b8b4-d5852bc63c90" SourceId="1" SourceUrl="http://localhost:23645/FileConverterService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FileConverterService.wsdl" MetadataType="Wsdl" ID="4e72388a-4105-4989-8c6d-ae495b608ab5" SourceId="1" SourceUrl="http://localhost:23645/FileConverterService.svc?wsdl" />
+    <MetadataFile FileName="FileConverterService2.xsd" MetadataType="Schema" ID="5ade84cb-00d2-4610-98ad-d1db5234adb8" SourceId="1" SourceUrl="http://localhost:23645/FileConverterService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
